@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(5, 150px);
+}
+
+.top {
+  z-index: 3;
+}
+
+.middle {
+  z-index: 2;
+}
+
+.bottom {
+  z-index: 1;
+}
+
+.first {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.second {
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 3;
+}
+
+.third {
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 3;
+}
+
+.red {
+  background-color: rgba(150, 0, 0, 0.7);
+}
+
+.green {
+  background-color: rgba(0, 150, 0, 0.7);
+}
+
+.blue {
+  background-color: rgba(0, 0, 150, 0.7);
+}
