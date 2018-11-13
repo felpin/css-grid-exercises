@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.item img {
+  width: 100%;
+}
+
 .status {
   background-color: rgba(0, 0, 0, 0.5);
   color: #FFF;
