@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.item {
+  position: relative;
+}
+
+.status {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
